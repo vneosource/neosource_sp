@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pushd `dirname $0`
+cd src
+devtools/bin/vpc /hl2 /episodic +everything /mksln NeoSource_all
+popd
